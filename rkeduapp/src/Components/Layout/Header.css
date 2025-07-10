@@ -1,0 +1,43 @@
+.headerMain{
+    background-color:  #333fff;
+    color: white;
+    padding: 14px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo img {
+  height: 50px;
+  width: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+.nav{
+  display: flex;
+  gap: 24px;
+}
+.nav-link{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  transition : color 0.3s ease;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #38bdf8; /* cyan highlight */
+  transition: width 0.3s ease;
+}
+.nav-link:hover {
+  color: #38bdf8;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
