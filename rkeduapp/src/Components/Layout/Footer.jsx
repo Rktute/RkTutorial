@@ -8,6 +8,12 @@ const Footer = () => {
         <div className="footer-section about">
           <h2>Rk Tutorial</h2>
           <p>Your trusted partner in digital solutions.</p>
+          <div>
+            <p>FaceBook</p>
+            <p>intragram</p>
+            <p>Linkdin</p>
+            <p>X</p>
+       </div>
         </div>
 
         <div className="footer-section links">

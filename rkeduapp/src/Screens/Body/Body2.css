@@ -1,0 +1,49 @@
+.toppers-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #e0f0ff, #ffffff);
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #004080;
+  font-weight: bold;
+}
+
+.topper-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 200px !important;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 64, 128, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topper-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 64, 128, 0.3);
+}
+
+.topper-img {
+  width: 170px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 2px solid #cce6ff;
+}
+
+.topper-card h3 {
+  margin: 8px 0 5px;
+  font-size: 18px;
+  color: #004080;
+}
+
+.topper-info {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #333;
+}
