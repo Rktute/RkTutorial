@@ -1,0 +1,48 @@
+.staff-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #f0f8ff, #ffffff);
+}
+
+.section-title {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.staff-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.staff-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 180px;
+  box-shadow: 0 4px 10px rgba(0, 64, 128, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.staff-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 64, 128, 0.3);
+}
+
+.staff-img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #cce6ff;
+  margin-bottom: 10px;
+}
+
+.staff-role {
+  font-size: 14px;
+  color: #444;
+}

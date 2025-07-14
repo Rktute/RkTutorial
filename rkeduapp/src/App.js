@@ -5,6 +5,7 @@ import AboutUs from './Screens/AboutUs/AboutUs'
 import Header from './Components/Layout/Header'
 import Footer from './Components/Layout/Footer'
 import Blog from './Screens/Blog/Blog'
+import Students from './Screens/Students/Students'
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
       <Route path='/header' element={<Header/>}/>
       <Route path='/footer' element={<Footer/>}/>
       <Route path='/blog' element={<Blog/>}/>
+      <Route path='/Students' element={<Students/>}/>
+
      </Routes>
   )
 }
