@@ -1,23 +1,39 @@
 .BodyMain {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 30px;
-  gap: 20px;
+  gap: 40px;
+  padding: 40px;
   background-color: #f9f9f9;
 }
 
+/* Carousel Container */
 .CaroselContainer {
   flex: 2;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Login/Query Container */
 .LoginContainer {
   flex: 1;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  height: 490px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile First Responsive Design */
+@media screen and (max-width: 1024px) {
+  .BodyMain {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .CaroselContainer,
+  .LoginContainer {
+    width: 100%;
+  }
+
+  .LoginContainer {
+    margin-top: 20px;
+  }
 }
